@@ -22,7 +22,7 @@
 
     body {
       color: #333;
-      background: url(./sundar1.jpeg) fixed center/cover;
+      background: url(./sundar1.jpg) fixed center/cover;
       position: relative;
       min-height: 100vh;
       font-family: 'Poppins', sans-serif;
@@ -545,3 +545,4 @@
         margin-bottom: 0;
       }
     }
+
