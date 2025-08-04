@@ -1,18 +1,18 @@
 
     /* ========== BASE STYLES & VARIABLES ========== */
-    :root {
-      --primary: #73deb7;
-      --primary-dark: #3c9c8e;
-      --secondary: #ff6b6b;
-      --dark: #121212;
-      --light: #f8f9fa;
-      --gray: #1774c6;
-      --glass: rgba(255, 255, 255, 0.1);
-      --glass-dark: rgba(0, 0, 0, 0.5);
-      --transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-      --shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.3);
-      --nav-height: 70px;
-    }
+:root {
+  --primary: #00c3ff;        /* Bright neon blue */
+  --primary-dark: #005377;   /* Darker cyan/blue */
+  --secondary: #0099cc;      /* Soft cyan for accents */
+  --dark: #000000;           /* Pure black background */
+  --light: #cceeff;          /* Light cyan/white for contrast */
+  --gray: #1a1a1a;           /* Dark gray for depth */
+  --glass: rgba(0, 195, 255, 0.1);     /* Blue-tinted glass */
+  --glass-dark: rgba(0, 0, 0, 0.7);    /* Darker overlay */
+  --transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  --shadow: 0 10px 30px -10px rgba(0, 195, 255, 0.3);
+  --nav-height: 70px;
+}
 
     * {
       margin: 0;
@@ -545,6 +545,7 @@
         margin-bottom: 0;
       }
     }
+
 
 
 
